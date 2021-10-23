@@ -1,0 +1,95 @@
+{
+  "name": "hn-ts",
+  "description": "Hacker News API client",
+  "version": "0.1.0",
+  "author": "Edoardo Scibona",
+  "license": "MIT",
+  "source": "src/index.ts",
+  "main": "dist/index.js",
+  "module": "dist/hn-ts.esm.js",
+  "types": "dist/index.d.ts",
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "require": "./dist/index.js",
+      "import": "./dist/hn-ts.esm.js",
+      "default": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/velut/hn-ts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/velut/hn-ts/issues"
+  },
+  "keywords": [
+    "hacker",
+    "news",
+    "hacker news",
+    "hn",
+    "client",
+    "api",
+    "firebase",
+    "v0",
+    "typescript",
+    "types",
+    "typed",
+    "typings"
+  ],
+  "scripts": {
+    "start": "dts watch",
+    "build:check": "tsc --noEmit",
+    "build": "tsc --noEmit && dts build",
+    "build:node": "tsc --noEmit && dts build --target node",
+    "test": "dts test --runInBand",
+    "test:cov": "dts test --runInBand --coverage",
+    "test:ci": "dts test --runInBand --coverage --ci --coverage",
+    "lint": "dts lint",
+    "lint:fix": "dts lint --fix",
+    "prepare": "husky install && dts build",
+    "size": "size-limit",
+    "analyze": "size-limit --why",
+    "pre-push": "yarn && yarn lint && yarn build && yarn test:cov",
+    "release": "np"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "size-limit": [
+    {
+      "path": "dist/hn-ts.cjs.production.min.js",
+      "limit": "10 KB"
+    },
+    {
+      "path": "dist/hn-ts.esm.js",
+      "limit": "10 KB"
+    }
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "@commitlint/cli": "13.2.1",
+    "@commitlint/config-conventional": "13.2.0",
+    "@size-limit/preset-small-lib": "6.0.3",
+    "@tsconfig/recommended": "1.0.1",
+    "dts-cli": "0.19.4",
+    "eslint-plugin-prettier": "4.0.0",
+    "husky": "^7.0.0",
+    "np": "7.5.0",
+    "prettier": "2.4.1",
+    "size-limit": "6.0.3",
+    "tslib": "2.3.1",
+    "typescript": "4.4.4"
+  }
+}
