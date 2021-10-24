@@ -85,7 +85,7 @@
     "@tsconfig/recommended": "1.0.1",
     "dts-cli": "0.19.4",
     "eslint-plugin-prettier": "4.0.0",
-    "husky": "^7.0.0",
+    "husky": "7.0.4",
     "np": "7.5.0",
     "prettier": "2.4.1",
     "size-limit": "6.0.3",
