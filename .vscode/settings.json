@@ -4,6 +4,9 @@
     "bahmutov",
     "codecov",
     "commitlint",
-    "duplicative"
+    "duplicative",
+    "maxitem",
+    "pollopt",
+    "unfetch"
   ]
 }

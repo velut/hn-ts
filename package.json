@@ -76,12 +76,16 @@
       "limit": "10 KB"
     }
   ],
-  "dependencies": {},
+  "dependencies": {
+    "html-to-text": "^8.0.0",
+    "isomorphic-unfetch": "^3.1.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "13.2.1",
     "@commitlint/config-conventional": "13.2.0",
     "@size-limit/preset-small-lib": "6.0.3",
     "@tsconfig/recommended": "1.0.1",
+    "@types/html-to-text": "8.0.1",
     "dts-cli": "0.19.4",
     "eslint-plugin-prettier": "4.0.0",
     "husky": "7.0.4",
