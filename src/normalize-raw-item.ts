@@ -1,7 +1,8 @@
 import { htmlToText } from "html-to-text";
-import { ItemType } from ".";
 import { Item } from "./item";
+import { ItemType } from "./item-type";
 import { RawItem } from "./raw-item";
+import { unixToIsoString } from "./unix-to-iso-string";
 
 /**
  * `normalizeRawItem` transforms a `RawItem` into an `Item`.
@@ -10,9 +11,9 @@ export function normalizeRawItem({ rawItem }: { rawItem: RawItem }): Item {
   // Make `type` not null
   const type: ItemType = rawItem.type ?? "unknown";
 
-  // Convert Unix time in second to UTC timestamp
+  // Convert Unix time in seconds to UTC timestamp
   const timestamp = rawItem.time
-    ? new Date(rawItem.time * 1000).toISOString()
+    ? unixToIsoString({ time: rawItem.time })
     : undefined;
 
   // Make `deleted` and `dead` not null
