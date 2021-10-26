@@ -1,5 +1,8 @@
 /**
- * This package TODO:
+ * This package provides a fully typed client for the Hacker News API.
+ *
+ * @see {@link https://news.ycombinator.com/}
+ * @see {@link https://github.com/HackerNews/API}
  *
  * @packageDocumentation
  */
