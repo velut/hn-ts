@@ -68,11 +68,11 @@
   "size-limit": [
     {
       "path": "dist/hn-ts.cjs.production.min.js",
-      "limit": "10 KB"
+      "limit": "100 KB"
     },
     {
       "path": "dist/hn-ts.esm.js",
-      "limit": "10 KB"
+      "limit": "100 KB"
     }
   ],
   "dependencies": {
