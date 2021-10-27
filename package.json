@@ -1,6 +1,6 @@
 {
   "name": "hn-ts",
-  "description": "Hacker News API client",
+  "description": "TypeScript client for the Hacker News API",
   "version": "0.1.0",
   "author": "Edoardo Scibona",
   "license": "MIT",
