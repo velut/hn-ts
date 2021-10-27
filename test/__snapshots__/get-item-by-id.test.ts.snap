@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getItemById returns a dead item 1`] = `
+Object {
+  "author": "clement189",
+  "childrenIds": undefined,
+  "dead": true,
+  "deleted": false,
+  "id": 29013059,
+  "numChildren": undefined,
+  "parentId": undefined,
+  "pollId": undefined,
+  "pollOptionsIds": undefined,
+  "score": 1,
+  "text": undefined,
+  "timestamp": "2021-10-27T13:31:37.000Z",
+  "title": "Move from one page to another without loading",
+  "type": "story",
+  "url": "https://dev.to/clementgaudiniere/move-from-one-page-to-another-without-loading-jlb",
+}
+`;
+
+exports[`getItemById returns a deleted item 1`] = `
+Object {
+  "author": undefined,
+  "childrenIds": undefined,
+  "dead": false,
+  "deleted": true,
+  "id": 27121851,
+  "numChildren": undefined,
+  "parentId": 27120206,
+  "pollId": undefined,
+  "pollOptionsIds": undefined,
+  "score": undefined,
+  "text": undefined,
+  "timestamp": "2021-05-11T18:41:22.000Z",
+  "title": undefined,
+  "type": "comment",
+  "url": undefined,
+}
+`;
+
+exports[`getItemById returns an existing comment item 1`] = `
+Object {
+  "author": "velut",
+  "childrenIds": undefined,
+  "dead": false,
+  "deleted": false,
+  "id": 27121843,
+  "numChildren": undefined,
+  "parentId": 27121265,
+  "pollId": undefined,
+  "pollOptionsIds": undefined,
+  "score": undefined,
+  "text": "Thank you!
+
+Yes, I use prism-react-renderer for syntax highlighting.
+
+I did not know about Shiki, but I'll look into it.",
+  "timestamp": "2021-05-11T18:40:46.000Z",
+  "title": undefined,
+  "type": "comment",
+  "url": undefined,
+}
+`;
+
+exports[`getItemById returns an existing story item 1`] = `
+Object {
+  "author": "velut",
+  "childrenIds": Array [
+    27107840,
+    27112027,
+    27112015,
+    27121265,
+  ],
+  "dead": false,
+  "deleted": false,
+  "id": 27107832,
+  "numChildren": 7,
+  "parentId": undefined,
+  "pollId": undefined,
+  "pollOptionsIds": undefined,
+  "score": 14,
+  "text": undefined,
+  "timestamp": "2021-05-10T16:30:22.000Z",
+  "title": "Show HN: Automatic Documentation for TypeScript Packages",
+  "type": "story",
+  "url": "https://www.jsdocs.io",
+}
+`;
+
+exports[`getItemById returns an item with only an ID 1`] = `
+Object {
+  "author": undefined,
+  "childrenIds": undefined,
+  "dead": false,
+  "deleted": false,
+  "id": 0,
+  "numChildren": undefined,
+  "parentId": undefined,
+  "pollId": undefined,
+  "pollOptionsIds": undefined,
+  "score": undefined,
+  "text": undefined,
+  "timestamp": undefined,
+  "title": undefined,
+  "type": "unknown",
+  "url": undefined,
+}
+`;

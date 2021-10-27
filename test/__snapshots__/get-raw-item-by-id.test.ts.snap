@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getRawItemById returns an existing item 1`] = `
+Object {
+  "by": "velut",
+  "descendants": 7,
+  "id": 27107832,
+  "kids": Array [
+    27107840,
+    27112027,
+    27112015,
+    27121265,
+  ],
+  "score": 14,
+  "time": 1620664222,
+  "title": "Show HN: Automatic Documentation for TypeScript Packages",
+  "type": "story",
+  "url": "https://www.jsdocs.io",
+}
+`;
