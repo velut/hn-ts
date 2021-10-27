@@ -6,6 +6,26 @@ import { normalizeRawItem } from "./normalize-raw-item";
  * `getItemById` returns the `Item` with the given ID.
  * If the item is not available, `getItemById` returns `undefined`.
  *
+ * @example
+ * ```typescript
+ * import { getItemById } from 'hn-ts';
+ *
+ * (async () => {
+ *   const item = await getItemById({
+ *     id: 27107832,
+ *   });
+ *
+ *   // Output: `27107832`
+ *   console.log(item.id);
+ *
+ *   // Output: `story`
+ *   console.log(item.type);
+ *
+ *   // Output: `velut`
+ *   console.log(item.author);
+ * })();
+ * ```
+ *
  * @see {@link Item}
  * @see {@link https://github.com/HackerNews/API#items}
  */

@@ -1,5 +1,59 @@
 /**
- * This package provides a fully typed client for the Hacker News API.
+ * This package provides a TypeScript client for the Hacker News API.
+ *
+ * @remarks
+ *
+ * @example
+ * Get the ID of the latest item created on HN:
+ *
+ * ```typescript
+ * import { getMaxItemId } from 'hn-ts';
+ *
+ * (async () => {
+ *   const id = await getMaxItemId();
+ *
+ *   // Output: a number like `27107832`
+ *   console.log(id);
+ * })();
+ * ```
+ *
+ * @example
+ * Get the item (story, comment, job, poll or poll option) with the given ID:
+ *
+ * ```typescript
+ * import { getItemById } from 'hn-ts';
+ *
+ * (async () => {
+ *   const item = await getItemById({
+ *     id: 27107832,
+ *   });
+ *
+ *   // Output: `27107832`
+ *   console.log(item.id);
+ *
+ *   // Output: `story`
+ *   console.log(item.type);
+ *
+ *   // Output: `velut`
+ *   console.log(item.author);
+ * })();
+ * ```
+ *
+ * @example
+ * Get the user with the given name:
+ *
+ * ```typescript
+ * import { getUserById } from 'hn-ts';
+ *
+ * (async () => {
+ *   const user = await getUserById({
+ *     id: "velut",
+ *   });
+ *
+ *   // Output: `velut`
+ *   console.log(user.id);
+ * })();
+ * ```
  *
  * @see {@link https://news.ycombinator.com/}
  * @see {@link https://github.com/HackerNews/API}
