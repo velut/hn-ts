@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`getItemById returns an item with only an ID 1`] = `
+Object {
+  "author": undefined,
+  "childrenIds": undefined,
+  "dead": false,
+  "deleted": false,
+  "id": 0,
+  "numChildren": undefined,
+  "parentId": undefined,
+  "pollId": undefined,
+  "pollOptionsIds": undefined,
+  "score": undefined,
+  "text": undefined,
+  "timestamp": undefined,
+  "title": undefined,
+  "type": "unknown",
+  "url": undefined,
+}
+`;
