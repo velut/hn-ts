@@ -80,7 +80,7 @@
     "isomorphic-unfetch": "^3.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "17.0.2",
+    "@commitlint/cli": "17.0.3",
     "@commitlint/config-conventional": "17.0.2",
     "@pollyjs/adapter-node-http": "6.0.5",
     "@pollyjs/core": "6.0.5",
@@ -95,11 +95,11 @@
     "eslint-plugin-prettier": "4.0.0",
     "husky": "8.0.1",
     "nock": "13.2.4",
-    "np": "7.6.1",
+    "np": "7.6.2",
     "prettier": "2.6.2",
     "setup-polly-jest": "0.11.0",
     "size-limit": "7.0.8",
     "tslib": "2.4.0",
-    "typescript": "4.7.2"
+    "typescript": "4.7.4"
   }
 }
