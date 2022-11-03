@@ -55,8 +55,6 @@
     "lint": "dts lint src test",
     "lint:fix": "dts lint src test --fix",
     "prepare": "husky install && dts build --target node",
-    "size": "size-limit",
-    "analyze": "size-limit --why",
     "pre-push": "yarn && yarn lint && yarn build && yarn test:cov"
   },
   "prettier": {
@@ -64,16 +62,6 @@
     "semi": true,
     "trailingComma": "es5"
   },
-  "size-limit": [
-    {
-      "path": "dist/hn-ts.cjs.production.min.js",
-      "limit": "100 KB"
-    },
-    {
-      "path": "dist/hn-ts.esm.js",
-      "limit": "100 KB"
-    }
-  ],
   "dependencies": {
     "html-to-text": "^8.0.0",
     "isomorphic-unfetch": "^3.1.0"
@@ -96,7 +84,6 @@
     "nock": "13.2.9",
     "prettier": "2.7.1",
     "setup-polly-jest": "0.11.0",
-    "size-limit": "8.1.0",
     "tslib": "2.4.1",
     "typescript": "4.8.4"
   }
