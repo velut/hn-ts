@@ -63,7 +63,7 @@
     "trailingComma": "es5"
   },
   "dependencies": {
-    "html-to-text": "^8.0.0",
+    "html-to-text": "^9.0.3",
     "isomorphic-unfetch": "^3.1.0"
   },
   "devDependencies": {
