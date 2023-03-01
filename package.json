@@ -64,7 +64,7 @@
   },
   "dependencies": {
     "html-to-text": "^9.0.3",
-    "isomorphic-unfetch": "^3.1.0"
+    "isomorphic-unfetch": "^4.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "17.4.4",
