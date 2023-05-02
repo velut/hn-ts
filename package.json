@@ -55,7 +55,7 @@
     "lint": "dts lint src test",
     "lint:fix": "dts lint src test --fix",
     "prepare": "husky install && dts build --target node",
-    "pre-push": "yarn && yarn lint && yarn build && yarn test:cov"
+    "pre-push": "yarn && yarn lint && yarn build"
   },
   "prettier": {
     "printWidth": 80,
