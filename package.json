@@ -75,13 +75,14 @@
     "@tsconfig/recommended": "1.0.2",
     "@types/html-to-text": "9.0.0",
     "@types/setup-polly-jest": "0.5.2",
-    "dts-cli": "1.6.3",
+    "babel-jest": "29.5.0",
+    "dts-cli": "2.0.2",
     "eslint-plugin-prettier": "4.2.1",
     "husky": "8.0.3",
-    "nock": "13.3.0",
+    "nock": "13.3.1",
     "prettier": "2.8.8",
     "setup-polly-jest": "0.11.0",
     "tslib": "2.5.0",
-    "typescript": "4.9.4"
+    "typescript": "5.0.4"
   }
 }
