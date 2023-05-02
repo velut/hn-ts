@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getRawItemById returns an existing item 1`] = `
-Object {
+{
   "by": "velut",
   "descendants": 7,
   "id": 27107832,
-  "kids": Array [
+  "kids": [
     27107840,
     27112027,
     27112015,

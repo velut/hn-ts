@@ -1,12 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getRawUserById returns an existing user 1`] = `
-Object {
+{
   "about": "GitHub: https:&#x2F;&#x2F;github.com&#x2F;velut&#x2F;",
   "created": 1556648526,
   "id": "velut",
-  "karma": 7,
-  "submitted": Array [
+  "karma": 9,
+  "submitted": [
+    31704327,
+    29696636,
     27712220,
     27121843,
     27112535,

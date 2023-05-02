@@ -1,12 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getUserById returns an existing user 1`] = `
-Object {
+{
   "about": "GitHub: https://github.com/velut/",
   "createdAt": "2019-04-30T18:22:06.000Z",
   "id": "velut",
-  "karma": 7,
-  "submittedIds": Array [
+  "karma": 9,
+  "submittedIds": [
+    31704327,
+    29696636,
     27712220,
     27121843,
     27112535,
@@ -20,12 +22,12 @@ Object {
 `;
 
 exports[`getUserById returns an existing user with no about description 1`] = `
-Object {
+{
   "about": undefined,
   "createdAt": "2018-05-01T16:23:08.000Z",
   "id": "cupar",
   "karma": 3,
-  "submittedIds": Array [
+  "submittedIds": [
     18718091,
     18179893,
     18092359,

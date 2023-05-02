@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`getItemById returns a dead item 1`] = `
-Object {
+{
   "author": "clement189",
   "childrenIds": undefined,
   "dead": true,
@@ -21,7 +21,7 @@ Object {
 `;
 
 exports[`getItemById returns a deleted item 1`] = `
-Object {
+{
   "author": undefined,
   "childrenIds": undefined,
   "dead": false,
@@ -41,9 +41,9 @@ Object {
 `;
 
 exports[`getItemById returns an existing 'ask hn' story item 1`] = `
-Object {
+{
   "author": "tel",
-  "childrenIds": Array [
+  "childrenIds": [
     121016,
     121109,
     121168,
@@ -71,9 +71,9 @@ Not to say that isn't great, but I'm wary of Diggification. Between links compar
 `;
 
 exports[`getItemById returns an existing 'show hn' story item 1`] = `
-Object {
+{
   "author": "velut",
-  "childrenIds": Array [
+  "childrenIds": [
     25497213,
   ],
   "dead": false,
@@ -93,7 +93,7 @@ Object {
 `;
 
 exports[`getItemById returns an existing comment item 1`] = `
-Object {
+{
   "author": "velut",
   "childrenIds": undefined,
   "dead": false,
@@ -117,7 +117,7 @@ I did not know about Shiki, but I'll look into it.",
 `;
 
 exports[`getItemById returns an existing job item 1`] = `
-Object {
+{
   "author": "justin",
   "childrenIds": undefined,
   "dead": false,
@@ -162,9 +162,9 @@ Note: You must be physically present in SF to work for JTV. Completing the techn
 `;
 
 exports[`getItemById returns an existing poll item 1`] = `
-Object {
+{
   "author": "pg",
-  "childrenIds": Array [
+  "childrenIds": [
     126822,
     126823,
     126917,
@@ -197,7 +197,7 @@ Object {
   "numChildren": 54,
   "parentId": undefined,
   "pollId": undefined,
-  "pollOptionsIds": Array [
+  "pollOptionsIds": [
     126810,
     126811,
     126812,
@@ -212,7 +212,7 @@ Object {
 `;
 
 exports[`getItemById returns an existing poll option item 1`] = `
-Object {
+{
   "author": "pg",
   "childrenIds": undefined,
   "dead": false,
@@ -232,9 +232,9 @@ Object {
 `;
 
 exports[`getItemById returns an existing story item 1`] = `
-Object {
+{
   "author": "velut",
-  "childrenIds": Array [
+  "childrenIds": [
     27107840,
     27112027,
     27112015,
